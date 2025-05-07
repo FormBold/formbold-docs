@@ -1,0 +1,23 @@
+{
+  "index": {
+    "title": "Quick Start"
+  },
+  "settings": {
+    "title": "Form Settings"
+  },
+  "spam": {
+    "title": "Spam Protection"
+  },
+  "apps": {
+    "title": "Connecting Apps"
+  },
+  "examples": {
+    "title": "Code Examples"
+  },
+  "webhooks": {
+    "title": "Webhooks"
+  },
+  "links": {
+    "title": "Useful Links"
+  }
+}
