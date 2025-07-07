@@ -361,3 +361,55 @@ Test the integration by sending a test message by submitting your form. To chang
 
 
 ![image](images/apps/35.png)
+
+
+## Mailchimp
+
+Connect your FormBold form to Mailchimp to automatically sync form submissions with your Mailchimp audience.
+
+Follow these steps to set it up:
+
+**Step 1**: First, log in to your Mailchimp account. Once you’re in:
+
+- Go to the Audience section from the left sidebar.
+
+- Click **Audience dashboard** to view and manage form fields.
+
+![image](images/apps/37.png)
+
+**Step 2**: Create an API Key
+
+- Click your profile icon (bottom left) → **Account → Extras → API Keys**
+
+- Create a new key if needed and copy it for later.
+
+![image](images/apps/36.png)
+
+**Step 3**. Configure Audience Fields
+
+Update your Mailchimp fields to match your form.
+
+- **Delete old field**s: Click the three-dot menu next to each row and remove existing fields.
+
+- Add these fields:
+
+    - **Email Address**: Type – Email, Merge tag – *|EMAIL|* or *|MERGE0|*
+
+    - **Name**: Type – Text, Merge tag – *|FNAME|* or *|MERGE1|*
+
+    - **Phone Number**: Type – Phone, Merge tag – *|PHONE|* or *|MERGE4|*
+
+    - **Address**: Type – Text, Merge tag – *|ADDRESS|* or *|MERGE2|*, Default – "ADDRESS"
+
+You're All Set!
+
+**Step 4**: Once your Mailchimp fields are ready and your API Key is created, you can connect this in FormBold by:
+
+- Going to your Form Settings →  **Apps → Mailchimp**
+
+- Paste your API Key and select the audience
+
+- Mapping your form fields to Mailchimp fields using the Field Mapper
+
+
+**Step 5**: Submit a test form and check Mailchimp to confirm the sync.
