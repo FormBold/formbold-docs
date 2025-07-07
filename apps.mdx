@@ -532,4 +532,68 @@ Follow these steps:
 
 ![image](images/apps/47.png)
 
+## Zapier 
+
+Use Zapier to connect the FormBold form to thousands of apps—like Google Calendar, Notion, and Trello—without writing code.
+
+Follow these steps:
+
+**Step 1**: Create a Zapier Account
+
+Sign up at [zapier.com](https://zapier.com) if you don’t have an account.
+
+**Step 2**: Create a Zap with Webhook Trigger
+
+- From Zapier Dashboard, Click **Create Zap**
+- Under **Trigger**, search for **Webhooks by Zapier**
+- Choose the **Catch Hook** event, this lets Zapier listen for incoming HTTP requests (like form submissions)
+- Click **Continue**
+
+**Step 3**: Copy the Webhook URL
+
+- Zapier will generate a unique Webhook URL
+- Click **Copy** to save it
+- Use this URL in your FormBold form to send a `POST` request
+
+> Tip: You can also test this URL with Postman or a cURL request before wiring it into your form.
+
+**Step 4**: Test the Webhook Trigger
+
+- Submit a test form entry or send a test POST request to the copied URL
+- In Zapier, click **Test Trigger**
+- Confirm sample data is received
+- Click **Continue with selected record**
+
+**Step 5**: Add Google Calendar as the Action
+- Under **Action**, search for **Google Calendar**
+- Select the **Create Calendar** event
+- Click **Continue**
+
+**Step 6**: Connect Google Account
+- Sign in with your Google account
+- Authorize access and Click **Continue**
+
+**Step 7**: Map Calendar Fields
+Map your form fields to Google Calendar fields:
+
+- **Name** → Form Submission Name
+- **Description** → Add fields like:
+  - Email → Form Submission Email
+  - Company → Form Submission Company
+  - Phone → Form Submission Phone
+
+> Use **Copilot Suggestions** in Zapier to auto-fill mappings.
+
+**Step 8**: Test the Action
+- Zapier will create a calendar entry based on your mapped data
+- Check your Google Calendar to verify it’s working
+
+**Step 9**: Publish Your Zap
+- Click **Publish** to activate your Zap
+- Your Zap will now trigger automatically on every form submission
+
+You’ve successfully set up a live Zap that:
+
+- Triggers on FormBold form submissions via Webhook
+- Sends the data to Google Calendar as a new calendar or event
 
