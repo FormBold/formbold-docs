@@ -9,7 +9,21 @@
     "title": "Spam Protection"
   },
   "apps": {
-    "title": "Connecting Apps"
+    "title": "Connecting Apps",
+    "items": {
+      "email": { "title": "Email" },
+      "slack": { "title": "Slack" },
+      "googleSheets": { "title": "Google Sheets" },
+      "autoResponder": { "title": "Auto Responder" },
+      "notion": { "title": "Notion" },
+      "telegram": { "title": "Telegram" },
+      "discord": { "title": "Discord" },
+      "mailchimp": { "title": "Mailchimp" },
+      "zendesk": { "title": "Zendesk" },
+      "make": { "title": "Make (formerly Integromat)" },
+      "zapier": { "title": "Zapier" },
+      "hubspot": { "title": "HubSpot" }
+    }
   },
   "examples": {
     "title": "Code Examples"
