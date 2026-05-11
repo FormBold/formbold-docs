@@ -31,8 +31,8 @@
   "webhooks": {
     "title": "Webhooks"
   },
-  "api": {
-    "title": "API Reference"
+  'api-reference': {
+    title: 'API Reference'
   },
   "links": {
     "title": "Useful Links"
